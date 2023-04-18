@@ -11,12 +11,20 @@
 		Last Name: <input type="text" name="lname"><br>
 		Email: <input type="text" name="email" required><br>
 		When do you want this service to start: <input type="date" name="date"><br>
-		Services<br>
-		<input type="radio" name="service">Manual Testing<br>
-		<input type="radio" name="service">Automation Testing<br>
+		Engagement: <br>
+		<input type="radio" name="service" value="full-time">Hire me full-time<br>
+		<input type="radio" name="service" value="part-time">Hire me part-time<br>
+		Services: <br>
+		<select name="services">
+			<option value="Manual Testing">Manual Testing </option>
+			<option value="Automation Testing"> Automation Testing</option>
+			<option value="Performance Testing" > Performance Testing</option>
+		</select> <br>
 
 		Please describe your query to Jun: <textarea rows="4" cols="50" placeholder="Enter your query to Jun" name="description">  </textarea> <br>
+		<br>
 		<input type="submit" value="Contact Jun">
 	</form>
 </body>
 </html>
+
